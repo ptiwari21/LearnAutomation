@@ -1,8 +1,10 @@
 package JavaBasicProgram;
 
-public class NumberDiamond {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class NumberDiamond {
+	@Test
+	public void runNumberDiamond() {
 		// TODO Auto-generated method stub
 		int numberOfStarLine =10;
 		boolean starPrint = false;

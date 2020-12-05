@@ -2,10 +2,12 @@ package JavaBasicProgram;
 
 import java.util.HashMap;
 
+import org.testng.annotations.Test;
+
 
 public class FindOccuranceUsingMap {
-
-	public static void main(String[] args) {
+	@Test
+	public void runFindOccuranceUsingMap() {
 		String strToFindOccurance = "abcdrfhkjxfghfkgkfjgklhjljhluyjfhkjkuioyhsrtsyryhdfghdfghdfht";
 		char arrayToFindOccurance[] = strToFindOccurance.toCharArray();
 		HashMap<Character, Integer> mapToFindOccurance = new HashMap<Character, Integer>();

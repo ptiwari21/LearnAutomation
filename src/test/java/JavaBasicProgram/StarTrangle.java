@@ -1,9 +1,12 @@
 package JavaBasicProgram;
 
-public class StarTrangle {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class StarTrangle {
+	@Test
+		public void runStarTrangle()
 		// TODO Auto-generated method stub
+		{
 		int numberOfStarLine=10;
 		for(int i=0;i<numberOfStarLine;i++)
 		{	for(int k=numberOfStarLine-1;k>i;k--)
@@ -17,8 +20,8 @@ public class StarTrangle {
 					{System.out.print(" ");}
 			}
 			System.out.println();
+		
 		}
-
 	}
 
 }

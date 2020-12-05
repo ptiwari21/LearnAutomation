@@ -1,8 +1,10 @@
 package JavaBasicProgram;
 
-public class ReverseString {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class ReverseString {
+	@Test
+	public void runReverseString() {
 		
 		String needToReverse="Tsest";
 		String reverseString="";

@@ -1,8 +1,10 @@
 package JavaBasicProgram;
 
-public class AddBinaryyNumber {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class AddBinaryyNumber {
+	@Test
+	public void runAddBinaryyNumber() {
 		int num1=110011;
 		int num2=111111;
 		int addedNumber=0;

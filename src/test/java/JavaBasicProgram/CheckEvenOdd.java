@@ -1,8 +1,10 @@
 package JavaBasicProgram;
 
-public class CheckEvenOdd {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class CheckEvenOdd {
+	@Test
+	public void runCheckEvenOdd() {
 		// TODO Auto-generated method stub
 		
 		int checkNumber=21;

@@ -1,8 +1,10 @@
 package JavaBasicProgram;
 
-public class CheckArmstrongNumber {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class CheckArmstrongNumber {
+	@Test
+	public void runCheckArmstrongNumber() {
 		// TODO Auto-generated method stub
 		
 		int checkNumber=221;

@@ -1,8 +1,10 @@
 package JavaBasicProgram;
 
-public class StarSideTrangle {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class StarSideTrangle {
+	@Test
+	public void runStarSideTrangle() {
 		// TODO Auto-generated method stub
 		int numberOfStarLine=10;
 		for(int i=0;i<numberOfStarLine;i++)

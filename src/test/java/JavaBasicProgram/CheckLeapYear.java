@@ -1,8 +1,10 @@
 package JavaBasicProgram;
 
-public class CheckLeapYear {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class CheckLeapYear {
+	@Test
+	public void runCheckLeapYear() {
 		// TODO Auto-generated method stub
 		int year=2100;
 		

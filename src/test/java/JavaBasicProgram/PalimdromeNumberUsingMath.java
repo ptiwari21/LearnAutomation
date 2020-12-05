@@ -1,7 +1,10 @@
 package JavaBasicProgram;
 
+import org.testng.annotations.Test;
+
 public class PalimdromeNumberUsingMath {
-	public static void main(String[] args) {
+	@Test
+	public void runPalimdromeNumberUsingMath() {
 		
 		int PalimdromeIntNumber=1992;
 		int performPalimdromeCheck=PalimdromeIntNumber;

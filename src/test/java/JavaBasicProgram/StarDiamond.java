@@ -1,8 +1,10 @@
 package JavaBasicProgram;
 
-public class StarDiamond {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class StarDiamond {
+	@Test
+	public void runStarDiamond() {
 		// TODO Auto-generated method stub
 		int numberOfStarLine=3;
 		for(int i=0;i<numberOfStarLine;i++)

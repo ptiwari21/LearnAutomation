@@ -1,8 +1,10 @@
 package JavaBasicProgram;
 
-public class CalculateCompoundInterest {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class CalculateCompoundInterest {
+	@Test
+	public void runCalculateCompoundInterest() {
 		// TODO Auto-generated method stub
 		String str[] = { "Ajeet", "Steve", "Rick", "Becky", "Mohan"};
 		String temp="";

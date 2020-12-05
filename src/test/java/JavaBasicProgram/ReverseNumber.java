@@ -1,8 +1,10 @@
 package JavaBasicProgram;
 
-public class ReverseNumber {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class ReverseNumber {
+	@Test
+	public void runReverseNumber() {
 		int PalimdromeIntNumber=1992;
 		int performPalimdromeCheck=PalimdromeIntNumber;
 		int verifyNumberResult=0;

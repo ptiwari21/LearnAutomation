@@ -1,8 +1,10 @@
 package JavaBasicProgram;
 
-public class FindOccuranceUsingLoops {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class FindOccuranceUsingLoops {
+	@Test
+	public void runFindOccuranceUsingLoops() {
 
 		String strToFindOccurance = "abcdrfhkjxfghfkgkfjgklhjljhluyjfhkjkuioyhsrtsyryhdfghdfghdfht";
 		char arrayToFindOccurance[] = strToFindOccurance.toCharArray();

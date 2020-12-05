@@ -1,7 +1,10 @@
 package JavaBasicProgram;
 
+import org.testng.annotations.Test;
+
 public class PalimdromeNumberUsingStringBuilder {
-	public static void main(String[] args) {
+	@Test
+	public void runPalimdromeNumberUsingStringBuilder() {
 		
 		int PalimdromeIntNumber=153;
 		if(PalimdromeIntNumber==Integer.parseInt((new StringBuilder(Integer.toString(PalimdromeIntNumber))).reverse().toString()))

@@ -1,8 +1,10 @@
 package JavaBasicProgram;
 
-public class PalimdromeString {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class PalimdromeString {
+	@Test
+	public void runPalimdromeString() {
 		
 		String needToReverse="Tsest";
 		String reverseString="";

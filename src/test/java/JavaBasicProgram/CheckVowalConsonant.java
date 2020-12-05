@@ -1,8 +1,10 @@
 package JavaBasicProgram;
 
-public class CheckVowalConsonant {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class CheckVowalConsonant {
+	@Test
+	public void runCheckVowalConsonant() {
 		// TODO Auto-generated method stub
 		char a='%';
 		if((int)a==65 || (int)a==69  || (int)a==73 || (int)a==79 || (int)a==85 || (int)a==97 || (int)a==101 || (int)a==105 || (int)a==111 || (int)a==117)
